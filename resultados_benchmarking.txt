@@ -1,0 +1,98 @@
+==================================================
+       REPORTE AUTOMÁTICO DE BENCHMARKING         
+       Fecha: Wed Sep 30 19:59:27 -05 2026
+==================================================
+
+--------------------------------------------------
+>>> EJECUTANDO EXPERIMENTO PARA MATRIZ N = 6000
+--------------------------------------------------
+=== Ejecutando 10 iteraciones para N = 6000 ===
+Iteracion  1: 3552.744830 segundos
+Iteracion  2: 3435.001217 segundos
+Iteracion  3: 3573.792201 segundos
+Iteracion  4: 3527.106928 segundos
+Iteracion  5: 3219.295708 segundos
+Iteracion  6: 3342.807753 segundos
+Iteracion  7: 3363.190055 segundos
+Iteracion  8: 3428.977587 segundos
+Iteracion  9: 3049.090181 segundos
+Iteracion 10: 3084.260869 segundos
+
+--------------------------------------------------
+>>> EJECUTANDO EXPERIMENTO PARA MATRIZ N = 4900
+--------------------------------------------------
+=== Ejecutando 10 iteraciones para N = 4900 ===
+Iteracion  1: 2021.855052 segundos
+Iteracion  2: 2101.725538 segundos
+Iteracion  3: 2106.456042 segundos
+Iteracion  4: 1973.751099 segundos
+Iteracion  5: 2018.325725 segundos
+Iteracion  6: 2001.695916 segundos
+Iteracion  7: 2013.073289 segundos
+Iteracion  8: 2017.132313 segundos
+Iteracion  9: 2053.474428 segundos
+Iteracion 10: 2095.081139 segundos
+
+--------------------------------------------------
+>>> EJECUTANDO EXPERIMENTO PARA MATRIZ N = 3800
+--------------------------------------------------
+=== Ejecutando 10 iteraciones para N = 3800 ===
+Iteracion  1: 1004.179627 segundos
+Iteracion  2: 953.238845 segundos
+Iteracion  3: 951.115479 segundos
+Iteracion  4: 956.094699 segundos
+Iteracion  5: 958.847586 segundos
+Iteracion  6: 959.237349 segundos
+Iteracion  7: 973.044580 segundos
+Iteracion  8: 970.980327 segundos
+Iteracion  9: 968.673324 segundos
+Iteracion 10: 996.397208 segundos
+
+--------------------------------------------------
+>>> EJECUTANDO EXPERIMENTO PARA MATRIZ N = 2600
+--------------------------------------------------
+=== Ejecutando 10 iteraciones para N = 2600 ===
+Iteracion  1: 322.577367 segundos
+Iteracion  2: 321.699737 segundos
+Iteracion  3: 322.023847 segundos
+Iteracion  4: 323.341708 segundos
+Iteracion  5: 321.620957 segundos
+Iteracion  6: 321.557418 segundos
+Iteracion  7: 321.093532 segundos
+Iteracion  8: 321.588938 segundos
+Iteracion  9: 327.476989 segundos
+Iteracion 10: 323.828655 segundos
+
+--------------------------------------------------
+>>> EJECUTANDO EXPERIMENTO PARA MATRIZ N = 1400
+--------------------------------------------------
+=== Ejecutando 10 iteraciones para N = 1400 ===
+Iteracion  1: 24.511112 segundos
+Iteracion  2: 24.825559 segundos
+Iteracion  3: 26.312154 segundos
+Iteracion  4: 25.992649 segundos
+Iteracion  5: 23.685909 segundos
+Iteracion  6: 23.393787 segundos
+Iteracion  7: 23.575047 segundos
+Iteracion  8: 23.424136 segundos
+Iteracion  9: 23.520861 segundos
+Iteracion 10: 23.664208 segundos
+
+--------------------------------------------------
+>>> EJECUTANDO EXPERIMENTO PARA MATRIZ N = 700
+--------------------------------------------------
+=== Ejecutando 10 iteraciones para N = 700 ===
+Iteracion  1: 2.472514 segundos
+Iteracion  2: 2.082535 segundos
+Iteracion  3: 2.183596 segundos
+Iteracion  4: 2.285008 segundos
+Iteracion  5: 2.125089 segundos
+Iteracion  6: 2.061103 segundos
+Iteracion  7: 2.136348 segundos
+Iteracion  8: 2.113964 segundos
+Iteracion  9: 2.145864 segundos
+Iteracion 10: 2.099191 segundos
+
+==================================================
+ ¡PROCESO COMPLETADO! Todos los datos se guardaron en: resultados_benchmarking.txt
+==================================================

@@ -1,0 +1,458 @@
+==================================================
+   REPORTE AUTOMÁTICO DE BENCHMARKING (PTHREADS)  
+   Fecha: Sat Oct  3 08:11:00 -05 2026
+==================================================
+
+--------------------------------------------------
+>>> EVALUANDO: Matriz N = 600 | Hilos = 1
+--------------------------------------------------
+=== Ejecutando 10 iteraciones (Hilos: 1) para N = 600 ===
+Iteracion  1: 1.983371 segundos
+Iteracion  2: 1.500586 segundos
+Iteracion  3: 1.356952 segundos
+Iteracion  4: 1.187787 segundos
+Iteracion  5: 1.289002 segundos
+Iteracion  6: 1.367779 segundos
+Iteracion  7: 1.168516 segundos
+Iteracion  8: 1.524018 segundos
+Iteracion  9: 1.542419 segundos
+Iteracion 10: 1.642758 segundos
+
+--------------------------------------------------
+>>> EVALUANDO: Matriz N = 600 | Hilos = 2
+--------------------------------------------------
+=== Ejecutando 10 iteraciones (Hilos: 2) para N = 600 ===
+Iteracion  1: 0.871143 segundos
+Iteracion  2: 0.733288 segundos
+Iteracion  3: 0.692966 segundos
+Iteracion  4: 0.604057 segundos
+Iteracion  5: 0.815625 segundos
+Iteracion  6: 0.786812 segundos
+Iteracion  7: 0.936254 segundos
+Iteracion  8: 0.814048 segundos
+Iteracion  9: 0.916581 segundos
+Iteracion 10: 0.844087 segundos
+
+--------------------------------------------------
+>>> EVALUANDO: Matriz N = 600 | Hilos = 4
+--------------------------------------------------
+=== Ejecutando 10 iteraciones (Hilos: 4) para N = 600 ===
+Iteracion  1: 0.842298 segundos
+Iteracion  2: 0.893545 segundos
+Iteracion  3: 0.694594 segundos
+Iteracion  4: 0.755817 segundos
+Iteracion  5: 0.877819 segundos
+Iteracion  6: 0.916212 segundos
+Iteracion  7: 0.750834 segundos
+Iteracion  8: 0.731435 segundos
+Iteracion  9: 0.794058 segundos
+Iteracion 10: 0.714575 segundos
+
+--------------------------------------------------
+>>> EVALUANDO: Matriz N = 600 | Hilos = 8
+--------------------------------------------------
+=== Ejecutando 10 iteraciones (Hilos: 8) para N = 600 ===
+Iteracion  1: 0.745069 segundos
+Iteracion  2: 0.765586 segundos
+Iteracion  3: 0.899625 segundos
+Iteracion  4: 0.822078 segundos
+Iteracion  5: 0.783702 segundos
+Iteracion  6: 0.749539 segundos
+Iteracion  7: 0.542258 segundos
+Iteracion  8: 0.580498 segundos
+Iteracion  9: 0.604249 segundos
+Iteracion 10: 0.543657 segundos
+
+--------------------------------------------------
+>>> EVALUANDO: Matriz N = 600 | Hilos = 16
+--------------------------------------------------
+=== Ejecutando 10 iteraciones (Hilos: 16) para N = 600 ===
+Iteracion  1: 0.687131 segundos
+Iteracion  2: 0.597183 segundos
+Iteracion  3: 0.567139 segundos
+Iteracion  4: 0.552817 segundos
+Iteracion  5: 0.575275 segundos
+Iteracion  6: 0.546327 segundos
+Iteracion  7: 0.685232 segundos
+Iteracion  8: 0.560861 segundos
+Iteracion  9: 0.563724 segundos
+Iteracion 10: 0.567167 segundos
+
+--------------------------------------------------
+>>> EVALUANDO: Matriz N = 1000 | Hilos = 1
+--------------------------------------------------
+=== Ejecutando 10 iteraciones (Hilos: 1) para N = 1000 ===
+Iteracion  1: 6.774371 segundos
+Iteracion  2: 6.421106 segundos
+Iteracion  3: 6.136534 segundos
+Iteracion  4: 6.134532 segundos
+Iteracion  5: 6.352299 segundos
+Iteracion  6: 6.185921 segundos
+Iteracion  7: 7.796312 segundos
+Iteracion  8: 7.063577 segundos
+Iteracion  9: 7.283417 segundos
+Iteracion 10: 7.070597 segundos
+
+--------------------------------------------------
+>>> EVALUANDO: Matriz N = 1000 | Hilos = 2
+--------------------------------------------------
+=== Ejecutando 10 iteraciones (Hilos: 2) para N = 1000 ===
+Iteracion  1: 4.515481 segundos
+Iteracion  2: 4.149027 segundos
+Iteracion  3: 5.341021 segundos
+Iteracion  4: 4.377062 segundos
+Iteracion  5: 4.492117 segundos
+Iteracion  6: 4.380049 segundos
+Iteracion  7: 4.320176 segundos
+Iteracion  8: 4.289160 segundos
+Iteracion  9: 4.342871 segundos
+Iteracion 10: 4.341792 segundos
+
+--------------------------------------------------
+>>> EVALUANDO: Matriz N = 1000 | Hilos = 4
+--------------------------------------------------
+=== Ejecutando 10 iteraciones (Hilos: 4) para N = 1000 ===
+Iteracion  1: 6.693688 segundos
+Iteracion  2: 6.680432 segundos
+Iteracion  3: 6.707189 segundos
+Iteracion  4: 6.667048 segundos
+Iteracion  5: 7.038995 segundos
+Iteracion  6: 6.721466 segundos
+Iteracion  7: 6.594877 segundos
+Iteracion  8: 6.604073 segundos
+Iteracion  9: 6.766819 segundos
+Iteracion 10: 6.838388 segundos
+
+--------------------------------------------------
+>>> EVALUANDO: Matriz N = 1000 | Hilos = 8
+--------------------------------------------------
+=== Ejecutando 10 iteraciones (Hilos: 8) para N = 1000 ===
+Iteracion  1: 6.616857 segundos
+Iteracion  2: 6.691926 segundos
+Iteracion  3: 6.688833 segundos
+Iteracion  4: 6.756688 segundos
+Iteracion  5: 6.920379 segundos
+Iteracion  6: 6.657755 segundos
+Iteracion  7: 6.586032 segundos
+Iteracion  8: 6.799978 segundos
+Iteracion  9: 6.649925 segundos
+Iteracion 10: 6.568513 segundos
+
+--------------------------------------------------
+>>> EVALUANDO: Matriz N = 1000 | Hilos = 16
+--------------------------------------------------
+=== Ejecutando 10 iteraciones (Hilos: 16) para N = 1000 ===
+Iteracion  1: 6.891875 segundos
+Iteracion  2: 6.853077 segundos
+Iteracion  3: 6.803076 segundos
+Iteracion  4: 6.790410 segundos
+Iteracion  5: 6.811715 segundos
+Iteracion  6: 6.721513 segundos
+Iteracion  7: 6.808863 segundos
+Iteracion  8: 6.906999 segundos
+Iteracion  9: 6.734544 segundos
+Iteracion 10: 6.734916 segundos
+
+--------------------------------------------------
+>>> EVALUANDO: Matriz N = 1500 | Hilos = 1
+--------------------------------------------------
+=== Ejecutando 10 iteraciones (Hilos: 1) para N = 1500 ===
+Iteracion  1: 36.265285 segundos
+Iteracion  2: 36.112877 segundos
+Iteracion  3: 35.829488 segundos
+Iteracion  4: 35.587482 segundos
+Iteracion  5: 36.035175 segundos
+Iteracion  6: 36.347738 segundos
+Iteracion  7: 36.743894 segundos
+Iteracion  8: 57.310491 segundos
+Iteracion  9: 44.069370 segundos
+Iteracion 10: 36.112481 segundos
+
+--------------------------------------------------
+>>> EVALUANDO: Matriz N = 1500 | Hilos = 2
+--------------------------------------------------
+=== Ejecutando 10 iteraciones (Hilos: 2) para N = 1500 ===
+Iteracion  1: 24.783268 segundos
+Iteracion  2: 24.481112 segundos
+Iteracion  3: 25.422932 segundos
+Iteracion  4: 24.534483 segundos
+Iteracion  5: 24.602169 segundos
+Iteracion  6: 25.026667 segundos
+Iteracion  7: 24.643704 segundos
+Iteracion  8: 24.481687 segundos
+Iteracion  9: 25.183523 segundos
+Iteracion 10: 23.839381 segundos
+
+--------------------------------------------------
+>>> EVALUANDO: Matriz N = 1500 | Hilos = 4
+--------------------------------------------------
+=== Ejecutando 10 iteraciones (Hilos: 4) para N = 1500 ===
+Iteracion  1: 28.736357 segundos
+Iteracion  2: 28.524854 segundos
+Iteracion  3: 28.908519 segundos
+Iteracion  4: 28.795247 segundos
+Iteracion  5: 28.611223 segundos
+Iteracion  6: 28.893241 segundos
+Iteracion  7: 28.983238 segundos
+Iteracion  8: 28.882935 segundos
+Iteracion  9: 28.767437 segundos
+Iteracion 10: 28.954556 segundos
+
+--------------------------------------------------
+>>> EVALUANDO: Matriz N = 1500 | Hilos = 8
+--------------------------------------------------
+=== Ejecutando 10 iteraciones (Hilos: 8) para N = 1500 ===
+Iteracion  1: 29.175736 segundos
+Iteracion  2: 28.989041 segundos
+Iteracion  3: 28.885955 segundos
+Iteracion  4: 29.236360 segundos
+Iteracion  5: 28.854308 segundos
+Iteracion  6: 28.916682 segundos
+Iteracion  7: 29.272140 segundos
+Iteracion  8: 29.136043 segundos
+Iteracion  9: 28.871655 segundos
+Iteracion 10: 29.286554 segundos
+
+--------------------------------------------------
+>>> EVALUANDO: Matriz N = 1500 | Hilos = 16
+--------------------------------------------------
+=== Ejecutando 10 iteraciones (Hilos: 16) para N = 1500 ===
+Iteracion  1: 29.332974 segundos
+Iteracion  2: 28.984894 segundos
+Iteracion  3: 29.042438 segundos
+Iteracion  4: 28.952646 segundos
+Iteracion  5: 28.973342 segundos
+Iteracion  6: 29.097129 segundos
+Iteracion  7: 29.707830 segundos
+Iteracion  8: 29.585757 segundos
+Iteracion  9: 29.463317 segundos
+Iteracion 10: 29.538314 segundos
+
+--------------------------------------------------
+>>> EVALUANDO: Matriz N = 2000 | Hilos = 1
+--------------------------------------------------
+=== Ejecutando 10 iteraciones (Hilos: 1) para N = 2000 ===
+Iteracion  1: 132.997309 segundos
+Iteracion  2: 133.553640 segundos
+Iteracion  3: 132.937381 segundos
+Iteracion  4: 131.924645 segundos
+Iteracion  5: 132.876755 segundos
+Iteracion  6: 132.904355 segundos
+Iteracion  7: 132.874003 segundos
+Iteracion  8: 133.005801 segundos
+Iteracion  9: 133.078127 segundos
+Iteracion 10: 133.431392 segundos
+
+--------------------------------------------------
+>>> EVALUANDO: Matriz N = 2000 | Hilos = 2
+--------------------------------------------------
+=== Ejecutando 10 iteraciones (Hilos: 2) para N = 2000 ===
+Iteracion  1: 83.570500 segundos
+Iteracion  2: 83.598671 segundos
+Iteracion  3: 83.865533 segundos
+Iteracion  4: 83.759237 segundos
+Iteracion  5: 83.593167 segundos
+Iteracion  6: 84.030532 segundos
+Iteracion  7: 90.341337 segundos
+Iteracion  8: 83.565002 segundos
+Iteracion  9: 83.989710 segundos
+Iteracion 10: 84.302500 segundos
+
+--------------------------------------------------
+>>> EVALUANDO: Matriz N = 2000 | Hilos = 4
+--------------------------------------------------
+=== Ejecutando 10 iteraciones (Hilos: 4) para N = 2000 ===
+Iteracion  1: 76.584943 segundos
+Iteracion  2: 76.235325 segundos
+Iteracion  3: 75.677596 segundos
+Iteracion  4: 76.200717 segundos
+Iteracion  5: 76.287462 segundos
+Iteracion  6: 75.891785 segundos
+Iteracion  7: 76.093449 segundos
+Iteracion  8: 75.738916 segundos
+Iteracion  9: 76.299421 segundos
+Iteracion 10: 75.235053 segundos
+
+--------------------------------------------------
+>>> EVALUANDO: Matriz N = 2000 | Hilos = 8
+--------------------------------------------------
+=== Ejecutando 10 iteraciones (Hilos: 8) para N = 2000 ===
+Iteracion  1: 76.677504 segundos
+Iteracion  2: 76.820394 segundos
+Iteracion  3: 76.270431 segundos
+Iteracion  4: 76.597027 segundos
+Iteracion  5: 75.626828 segundos
+Iteracion  6: 75.763012 segundos
+Iteracion  7: 76.185045 segundos
+Iteracion  8: 76.037896 segundos
+Iteracion  9: 75.525863 segundos
+Iteracion 10: 76.443787 segundos
+
+--------------------------------------------------
+>>> EVALUANDO: Matriz N = 2000 | Hilos = 16
+--------------------------------------------------
+=== Ejecutando 10 iteraciones (Hilos: 16) para N = 2000 ===
+Iteracion  1: 76.708627 segundos
+Iteracion  2: 76.206283 segundos
+Iteracion  3: 76.448941 segundos
+Iteracion  4: 76.618963 segundos
+Iteracion  5: 77.138727 segundos
+Iteracion  6: 75.820539 segundos
+Iteracion  7: 76.309896 segundos
+Iteracion  8: 76.726613 segundos
+Iteracion  9: 76.364903 segundos
+Iteracion 10: 76.498330 segundos
+
+--------------------------------------------------
+>>> EVALUANDO: Matriz N = 3000 | Hilos = 1
+--------------------------------------------------
+=== Ejecutando 10 iteraciones (Hilos: 1) para N = 3000 ===
+Iteracion  1: 501.490863 segundos
+Iteracion  2: 498.338452 segundos
+Iteracion  3: 505.927267 segundos
+Iteracion  4: 498.865279 segundos
+Iteracion  5: 499.109646 segundos
+Iteracion  6: 499.653139 segundos
+Iteracion  7: 500.160205 segundos
+Iteracion  8: 499.047213 segundos
+Iteracion  9: 499.530993 segundos
+Iteracion 10: 505.384831 segundos
+
+--------------------------------------------------
+>>> EVALUANDO: Matriz N = 3000 | Hilos = 2
+--------------------------------------------------
+=== Ejecutando 10 iteraciones (Hilos: 2) para N = 3000 ===
+Iteracion  1: 318.435863 segundos
+Iteracion  2: 319.640068 segundos
+Iteracion  3: 319.312025 segundos
+Iteracion  4: 319.328791 segundos
+Iteracion  5: 318.146841 segundos
+Iteracion  6: 317.901263 segundos
+Iteracion  7: 328.905313 segundos
+Iteracion  8: 321.116785 segundos
+Iteracion  9: 319.324352 segundos
+Iteracion 10: 320.046013 segundos
+
+--------------------------------------------------
+>>> EVALUANDO: Matriz N = 3000 | Hilos = 4
+--------------------------------------------------
+=== Ejecutando 10 iteraciones (Hilos: 4) para N = 3000 ===
+Iteracion  1: 271.469075 segundos
+Iteracion  2: 273.671279 segundos
+Iteracion  3: 277.327553 segundos
+Iteracion  4: 271.398214 segundos
+Iteracion  5: 269.884514 segundos
+Iteracion  6: 269.528065 segundos
+Iteracion  7: 279.802080 segundos
+Iteracion  8: 285.616768 segundos
+Iteracion  9: 271.030696 segundos
+Iteracion 10: 269.608976 segundos
+
+--------------------------------------------------
+>>> EVALUANDO: Matriz N = 3000 | Hilos = 8
+--------------------------------------------------
+=== Ejecutando 10 iteraciones (Hilos: 8) para N = 3000 ===
+Iteracion  1: 272.694520 segundos
+Iteracion  2: 271.641457 segundos
+Iteracion  3: 271.731235 segundos
+Iteracion  4: 270.752818 segundos
+Iteracion  5: 268.162404 segundos
+Iteracion  6: 266.852067 segundos
+Iteracion  7: 271.900241 segundos
+Iteracion  8: 266.630197 segundos
+Iteracion  9: 267.461554 segundos
+Iteracion 10: 268.504574 segundos
+
+--------------------------------------------------
+>>> EVALUANDO: Matriz N = 3000 | Hilos = 16
+--------------------------------------------------
+=== Ejecutando 10 iteraciones (Hilos: 16) para N = 3000 ===
+Iteracion  1: 270.431288 segundos
+Iteracion  2: 270.243448 segundos
+Iteracion  3: 271.290771 segundos
+Iteracion  4: 274.153471 segundos
+Iteracion  5: 282.146318 segundos
+Iteracion  6: 271.825694 segundos
+Iteracion  7: 272.513478 segundos
+Iteracion  8: 269.730638 segundos
+Iteracion  9: 272.031826 segundos
+Iteracion 10: 276.366706 segundos
+
+--------------------------------------------------
+>>> EVALUANDO: Matriz N = 4000 | Hilos = 1
+--------------------------------------------------
+=== Ejecutando 10 iteraciones (Hilos: 1) para N = 4000 ===
+Iteracion  1: 1191.260026 segundos
+Iteracion  2: 1192.968861 segundos
+Iteracion  3: 1196.570024 segundos
+Iteracion  4: 1192.013889 segundos
+Iteracion  5: 1191.594996 segundos
+Iteracion  6: 1194.704581 segundos
+Iteracion  7: 1192.946203 segundos
+Iteracion  8: 1191.678118 segundos
+Iteracion  9: 1208.054096 segundos
+Iteracion 10: 1194.890717 segundos
+
+--------------------------------------------------
+>>> EVALUANDO: Matriz N = 4000 | Hilos = 2
+--------------------------------------------------
+=== Ejecutando 10 iteraciones (Hilos: 2) para N = 4000 ===
+Iteracion  1: 758.202159 segundos
+Iteracion  2: 758.951406 segundos
+Iteracion  3: 761.350269 segundos
+Iteracion  4: 760.990540 segundos
+Iteracion  5: 785.076311 segundos
+Iteracion  6: 779.510109 segundos
+Iteracion  7: 773.698510 segundos
+Iteracion  8: 774.898252 segundos
+Iteracion  9: 768.791659 segundos
+Iteracion 10: 785.021712 segundos
+
+--------------------------------------------------
+>>> EVALUANDO: Matriz N = 4000 | Hilos = 4
+--------------------------------------------------
+=== Ejecutando 10 iteraciones (Hilos: 4) para N = 4000 ===
+Iteracion  1: 857.482578 segundos
+Iteracion  2: 670.347831 segundos
+Iteracion  3: 650.381127 segundos
+Iteracion  4: 663.334408 segundos
+Iteracion  5: 654.080813 segundos
+Iteracion  6: 666.699310 segundos
+Iteracion  7: 656.219224 segundos
+Iteracion  8: 657.970869 segundos
+Iteracion  9: 661.291722 segundos
+Iteracion 10: 653.109949 segundos
+
+--------------------------------------------------
+>>> EVALUANDO: Matriz N = 4000 | Hilos = 8
+--------------------------------------------------
+=== Ejecutando 10 iteraciones (Hilos: 8) para N = 4000 ===
+Iteracion  1: 696.955327 segundos
+Iteracion  2: 699.876656 segundos
+Iteracion  3: 693.520216 segundos
+Iteracion  4: 699.354181 segundos
+Iteracion  5: 693.861598 segundos
+Iteracion  6: 694.143371 segundos
+Iteracion  7: 697.437509 segundos
+Iteracion  8: 747.007999 segundos
+Iteracion  9: 703.147906 segundos
+Iteracion 10: 692.995988 segundos
+
+--------------------------------------------------
+>>> EVALUANDO: Matriz N = 4000 | Hilos = 16
+--------------------------------------------------
+=== Ejecutando 10 iteraciones (Hilos: 16) para N = 4000 ===
+Iteracion  1: 703.687649 segundos
+Iteracion  2: 698.365062 segundos
+Iteracion  3: 712.013815 segundos
+Iteracion  4: 705.827922 segundos
+Iteracion  5: 703.246092 segundos
+Iteracion  6: 702.558662 segundos
+Iteracion  7: 709.587483 segundos
+Iteracion  8: 698.214046 segundos
+Iteracion  9: 700.459363 segundos
+Iteracion 10: 705.050848 segundos
+
+==================================================
+ ¡PROCESO COMPLETADO! Resultados guardados en: resultados_benchmarking_pthreads.txt
+==================================================
