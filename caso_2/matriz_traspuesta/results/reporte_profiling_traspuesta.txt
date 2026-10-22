@@ -1,0 +1,9 @@
+==================================================
+   REPORTE DE PERFILADO: MATRIZ TRASPUESTA (PERF) 
+   Dimensión evaluada: N = 1000             
+==================================================
+
+       60091268263      instructions:u                   #    1.41  insn per cycle            
+       42721338393      cycles:u                                                              
+        1283783996      L1-dcache-load-misses:u                                               
+      19.876143894 seconds time elapsed
