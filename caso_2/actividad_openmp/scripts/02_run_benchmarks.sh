@@ -7,7 +7,7 @@ echo "Iniciando pruebas de Benchmark..."
 
 HILOS=(1 2 4 8 16)
 DIMENSIONES=(500 1000 1500 2000 3000 4000)
-ITERACIONES=3
+ITERACIONES=10
 
 for N in "${DIMENSIONES[@]}"; do
     for THREADS in "${HILOS[@]}"; do
