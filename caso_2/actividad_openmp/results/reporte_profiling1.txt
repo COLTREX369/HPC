@@ -1,0 +1,23 @@
+==============================================
+ REPORTE DE PROFILING  -  matrix_omp
+ Fecha: 2026-10-28 11:14:47
+ N (time) = 1500 | N (valgrind) = 1500 | Hilos = 4
+==============================================
+
+--- Resultado del programa (CSV: N,Hilos,Tiempo_s) ---
+1500,4,1.465978
+
+--- CPU y memoria RAM (/usr/bin/time -v) ---
+User time (seconds): 5.64
+System time (seconds): 0.12
+Percent of CPU this job got: 381%
+Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.51
+Maximum resident set size (kbytes): 54464
+
+--- Caché (valgrind --tool=cachegrind, N=1500) ---
+I refs:        13,547,365,847
+I1  misses:             2,025
+LLi misses:             1,999
+D refs:         5,069,476,932  (3,379,703,478 rd   + 1,689,773,454 wr)
+D1  misses:       423,017,228  (  422,454,001 rd   +       563,227 wr)
+LLd misses:       422,902,333  (  422,339,148 rd   +       563,185 wr)
