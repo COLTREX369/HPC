@@ -1,0 +1,45 @@
+=================================================
+ REPORTE DE PROFILING - RETO 2 (OpenMP)
+ Fecha: 2026-11-10 10:35:27
+ N (time) = 100000000 | N (Valgrind) = 10000000 | Hilos = 4
+=================================================
+
+-------------------------------------------------
+ 1. AGUJA DE BUFFON (buffon_omp)
+-------------------------------------------------
+Tiempo de ejecución nativo: 2.655398 segundos
+
+--- CPU y Memoria RAM (/usr/bin/time -v) ---
+User time (seconds): 8.50
+System time (seconds): 0.30
+Percent of CPU this job got: 331%
+Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.65
+Maximum resident set size (kbytes): 2472
+
+--- Perfilado de Caché (Valgrind Cachegrind, N=10000000) ---
+I refs:        1,436,435,140
+I1  misses:            2,036
+LLi misses:            1,922
+D refs:          469,891,391  (359,868,261 rd   + 110,023,130 wr)
+D1  misses:            3,065  (      2,375 rd   +         690 wr)
+LLd misses:            2,289  (      1,665 rd   +         624 wr)
+
+-------------------------------------------------
+ 2. TABLERO DE DARDOS (dartboard_omp)
+-------------------------------------------------
+Tiempo de ejecución nativo: 0.776182 segundos
+
+--- CPU y Memoria RAM (/usr/bin/time -v) ---
+User time (seconds): 2.54
+System time (seconds): 0.03
+Percent of CPU this job got: 925%
+Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.27
+Maximum resident set size (kbytes): 1960
+
+--- Perfilado de Caché (Valgrind Cachegrind, N=10000000) ---
+I refs:        670,715,686
+I1  misses:          1,954
+LLi misses:          1,845
+D refs:        170,145,050  (120,125,134 rd   + 50,019,916 wr)
+D1  misses:          2,630  (      1,979 rd   +        651 wr)
+LLd misses:          2,017  (      1,426 rd   +        591 wr)
